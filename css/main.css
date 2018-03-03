@@ -1,0 +1,40 @@
+body{
+background: black;
+}
+.header{
+  display:flex;
+  background: white;
+}
+
+.right-column{
+flex: 1;
+
+}
+
+.header-logo{
+  flex: 1;
+
+}
+/*right column as a flex container*/
+.right-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/*header-date as a flex container*/
+.header-menu{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* header-date as a flex container*/
+.header-date{
+  display: flex;
+  justify-content: space-around;
+  background: yellow;
+  flex-wrap: wrap;
+}
+
+.navigation{
+
+}
