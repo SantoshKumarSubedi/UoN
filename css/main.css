@@ -39,8 +39,8 @@ flex: 1;
 
 }
 /*meida query*/
-@media screen and (max-width:600px){
-  ..header-menu{
+@media screen and (max-width:300px){
+  .header-menu{
 
     flex-direction: column;
   }
